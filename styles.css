@@ -175,6 +175,15 @@ h1 {
   max-width: 18ch;
 }
 
+.hero-subtitle {
+  margin: 0 0 0.85rem;
+  max-width: 38ch;
+  font-size: clamp(1.05rem, 2.1vw, 1.22rem);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
 h2 {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
 }
