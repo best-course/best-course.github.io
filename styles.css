@@ -17,6 +17,7 @@
     linear-gradient(150deg, rgba(253, 253, 255, 0.97) 0%, rgba(239, 243, 251, 0.9) 100%);
   --section-separator: rgba(122, 145, 186, 0.5);
   --section-panel-shadow: 0 10px 28px rgba(35, 57, 100, 0.08);
+  --hero-subtitle: #5b4a6e;
 }
 
 *,
@@ -179,18 +180,18 @@ h2 {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
 }
 
-h2.hero-subtitle {
-  margin: 0 0 0.75rem;
-  max-width: 28ch;
-  font-size: clamp(1.35rem, 2.85vw, 1.9rem);
-  font-weight: 700;
-  line-height: 1.22;
-  letter-spacing: -0.02em;
-  color: var(--text);
-}
-
 h3 {
   font-size: 1.2rem;
+}
+
+h3.hero-subtitle {
+  margin: 0 0 0.75rem;
+  max-width: 34ch;
+  font-size: clamp(1.06rem, 2.05vw, 1.26rem);
+  font-weight: 600;
+  line-height: 1.38;
+  letter-spacing: -0.012em;
+  color: var(--hero-subtitle);
 }
 
 .lead {
