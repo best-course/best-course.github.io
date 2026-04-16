@@ -175,18 +175,18 @@ h1 {
   max-width: 18ch;
 }
 
-.hero-subtitle {
-  margin: 0 0 0.85rem;
-  max-width: 38ch;
-  font-size: clamp(1.12rem, 2.35vw, 1.32rem);
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: -0.015em;
-  color: var(--text);
-}
-
 h2 {
   font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+h2.hero-subtitle {
+  margin: 0 0 0.75rem;
+  max-width: 28ch;
+  font-size: clamp(1.35rem, 2.85vw, 1.9rem);
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 h3 {
